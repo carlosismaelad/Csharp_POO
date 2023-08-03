@@ -7,7 +7,7 @@
 # Pasta bin e obj
 bin/
 obj/
-.vscode/
+
 
 # Arquivos de configuração local
 appsettings.json
