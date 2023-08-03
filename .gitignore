@@ -1,0 +1,29 @@
+# Arquivos e pastas binárias
+*.exe
+*.dll
+*.pdb
+
+# Pasta bin e obj
+bin/
+obj/
+
+# Arquivos de configuração local
+appsettings.json
+appsettings.Development.json
+app.config
+
+# Arquivos sensíveis
+*.env
+*.pem
+*.pfx
+
+# Arquivos de cache e logs
+*.log
+*.cache
+
+# Arquivos temporários
+*.tmp
+
+# Dependências de terceiros
+packages/
+node_modules/
