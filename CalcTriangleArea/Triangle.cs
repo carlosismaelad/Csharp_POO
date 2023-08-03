@@ -11,7 +11,7 @@ namespace IntroAClasses
             return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
         }
 
-        
+         
     }
 
 
