@@ -3,9 +3,11 @@
 *.dll
 *.pdb
 
+
 # Pasta bin e obj
 bin/
 obj/
+.vscode/
 
 # Arquivos de configuração local
 appsettings.json
@@ -16,6 +18,7 @@ app.config
 *.env
 *.pem
 *.pfx
+.gitignore
 
 # Arquivos de cache e logs
 *.log
