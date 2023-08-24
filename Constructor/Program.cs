@@ -1,8 +1,11 @@
 ﻿using System.Globalization;
 
-namespace Constructor {
-    class Program {
-        static void Main(string[] args) {           
+namespace Constructor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
 
             Console.WriteLine("Entre com os dados do produto: ");
@@ -26,7 +29,7 @@ namespace Constructor {
 
             Console.WriteLine();
             Console.WriteLine("Dados atualizados do produto: " + p);
-            
+
             Console.WriteLine();
             Console.Write("Digite o número de produtos a serem removidos do estoque: ");
             quantity = int.Parse(Console.ReadLine());
