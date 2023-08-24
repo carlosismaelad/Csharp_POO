@@ -4,9 +4,11 @@
 *.pdb
 
 
+
 # Pasta bin e obj
 bin/
 obj/
+
 
 
 # Arquivos de configuração local
