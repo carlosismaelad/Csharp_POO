@@ -8,11 +8,9 @@ namespace OverloadingOuSobrecarga
         public double Price;
         public int InStock;
 
-        public Product(string name, double price, int inStock)
+        public Product()
         {
-            Name = name;
-            Price = price;
-            InStock = inStock;
+
         }
 
         public Product(string name, double price)
@@ -20,6 +18,24 @@ namespace OverloadingOuSobrecarga
             Name = name;
             Price = price;
         }
+
+        /* 
+        Se declararmos os parâmetro do construtor iguais aos atributos da classe devemos usar o .this para que o compilador saiba o que é parâmetro
+        e o que é atributo. Usamos o this, também, quando queremos referenciar um 
+        construtor dentro de outro construtor. EX:
+
+        public Product()
+        {
+            InStock = 0;
+        }
+
+        public Product(string Name, double Price) : this()
+        {
+            this.Name = Name;
+            this.Price = Price;
+
+        } 
+        */
 
         public double TotalValueInStock()
         {

@@ -13,10 +13,22 @@ namespace OverloadingOuSobrecarga
             string name = Console.ReadLine();
             Console.Write("Preço: ");
             double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            /* Console.Write("Quantidade: ");
-            int inStock = int.Parse(Console.ReadLine()); */
+            /* 
+            Não vamos mais pedir a quantidade porque temos um construtor que atribui valor padrão 0.
+            Console.Write("Quantidade: ");
+            int inStock = int.Parse(Console.ReadLine()); 
+            */
 
             Product p = new Product(name, price);
+
+            // sintaxe alternativa para instanciação de objetos:
+            /* Product p3 = new Product
+            {
+                Name = "Laptop",
+                Price = 2500.00,
+                InStock = 20
+            }; */
+
 
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
@@ -25,6 +37,9 @@ namespace OverloadingOuSobrecarga
 
             Console.Write("Digite o número de produtos a serem adicionados ao estoque: ");
             int quantity = int.Parse(Console.ReadLine());
+
+
+
             p.AddToStock(quantity);
 
             Console.WriteLine();
@@ -37,6 +52,9 @@ namespace OverloadingOuSobrecarga
 
             Console.WriteLine();
             Console.WriteLine("Dados atualizados do produto: " + p);
+
+
+
 
 
 
