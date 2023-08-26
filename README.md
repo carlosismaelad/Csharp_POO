@@ -145,7 +145,7 @@
 -   Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector
 -   Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução (desalocação por escopo)
 
-### Nullable
+## Nullable
 
 -   É um recurso de C# para que dados de tipo valor (structs) possam receber o valor null
 -   Um nullable não pode ser atribuído para um struct comum
@@ -169,3 +169,10 @@
 -   bool: false
 -   char: caractere código 0
 -   objeto: null
+
+## Operador de coalescência nula
+
+-   Se uma determinada expressão ou variável possuir valor, o seu valor será usado. Caso não tenha atribuímos um valor padrão.
+-   Ex:
+    ![Alt text](./assets/image.png)
+-   y recebe x se x possuir valor, caso x seja null y recebe 0.0
