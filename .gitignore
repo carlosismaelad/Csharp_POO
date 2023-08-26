@@ -33,4 +33,3 @@ app.config
 # Dependências de terceiros
 packages/
 node_modules/
-images-for-readme
