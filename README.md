@@ -78,7 +78,7 @@
 
 ## Modificadores e acesso
 
-![Alt text](image.png)
+![Alt text](./assets/image.png)
 
 ### Classes
 
@@ -113,9 +113,9 @@
 
 #### É possível criar seus próprios structs
 
-![Alt text](image-1.png)
+![Alt text](./assets/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](./assets/image-2.png)
 
 ### Valores padrão
 
@@ -128,7 +128,7 @@
 
 #### Lembrando: uma variável apenas declarada, mas não instanciada, inicia em estado "não atribuída", e o próprio compilador não permite que ela seja acessada.
 
-![Alt text](image-3.png)
+![Alt text](./assets/image-3.png)
 
 ## Desalocação de memória - garbage collector e escopo local
 
