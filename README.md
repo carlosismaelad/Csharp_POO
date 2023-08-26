@@ -148,8 +148,24 @@
 ### Nullable
 
 -   É um recurso de C# para que dados de tipo valor (structs) possam receber o valor null
+-   Um nullable não pode ser atribuído para um struct comum
 
 #### Uso comum:
 
 -   Campos de banco de dados que podem valer nulo (data de nascimento, algum valor numérico, etc.).
 -   Dados e parâmetros opcionais.
+
+#### • Métodos:
+
+-   GetValueOrDefault
+-   HasValue
+-   Value (lança uma exceção se não houver valor)
+
+#### Valor default para tipos:
+
+-   int: 0
+-   double: 0.0
+-   string: null
+-   bool: false
+-   char: caractere código 0
+-   objeto: null
