@@ -1,3 +1,5 @@
+# Classes, Métodos, Construtores, This, Sobrecarga e Encapsulamento
+
 ## Construtor
 
 -   É uma operação especial da classe, que é executada no momento da
@@ -69,7 +71,7 @@
 ## Ordem sugerida para implementação de membros
 
 -   Atributos privados
--   Propriedades autoimplementadas
+-   Propriedades aut´oimplementadas
 -   Construtores
 -   Propriedades customizadas
 -   Outros métodos da classe
@@ -82,7 +84,7 @@
 
 #### Acesso por qualquer classe
 
--   public class Product
+-   public class Pro´duct
 
 #### Acesso somente dentro do assembly
 
@@ -93,3 +95,61 @@
 
 -   private class Product
 -   Nota: classe aninhada, por padrão, é private
+
+# Comportamento de memória, Arrays e Listas
+
+## Tipos referência vs. tipos valor
+
+### Classes são tipos referência
+
+-   Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim
+    “tentáculos” (ponteiros) para caixas
+-   Tipos referência aceitam o valor "null", que indica que a variável aponta pra ninguém.
+
+### Structs são tipos valor
+
+-   A linguagem C# possui também tipos valor, que são os "structs". Structs são CAIXAS e
+    não ponteiros.
+
+#### É possível criar seus próprios structs
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+### Valores padrão
+
+#### Quando alocamos (new) qualquer tipo estruturado (classe, struct, array), são atribuídos valores padrão aos seus elementos
+
+-   números: 0
+-   bool: False
+-   char: caractere código 0
+-   objeto: null
+
+#### Lembrando: uma variável apenas declarada, mas não instanciada, inicia em estado "não atribuída", e o próprio compilador não permite que ela seja acessada.
+
+![Alt text](image-3.png)
+
+## Desalocação de memória - garbage collector e escopo local
+
+### Garbage collector
+
+-   É um processo que automatiza o gerenciamento de memória de um
+    programa em execução
+-   O garbage collector monitora os objetos alocados dinamicamente
+    pelo programa (no heap), desalocando aqueles que não estão mais
+    sendo utilizados.
+
+#### Resumo
+
+-   Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector
+-   Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução (desalocação por escopo)
+
+### Nullable
+
+-   É um recurso de C# para que dados de tipo valor (structs) possam receber o valor null
+
+#### Uso comum:
+
+-   Campos de banco de dados que podem valer nulo (data de nascimento, algum valor numérico, etc.).
+-   Dados e parâmetros opcionais.
