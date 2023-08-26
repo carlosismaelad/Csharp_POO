@@ -31,5 +31,5 @@ app.config
 *.tmp
 
 # Dependências de terceiros
-packages/
 node_modules/
+packages/
