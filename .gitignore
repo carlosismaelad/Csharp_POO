@@ -20,6 +20,7 @@ app.config
 *.env
 *.pem
 *.pfx
+
 .gitignore
 
 # Arquivos de cache e logs
@@ -32,3 +33,4 @@ app.config
 # Dependências de terceiros
 packages/
 node_modules/
+images-for-readme
