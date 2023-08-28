@@ -206,3 +206,15 @@
     o compilador obrigar o usuário a iniciar a variável.
 -   Nota: ambos são considerados "code smells" (design ruim) e devem
     ser evitados.
+
+## Boxing e Unboxing
+
+#### Boxing
+
+-   É o processo de conversão de um objeto tipo valor para um objeto
+    tipo referência compatível
+
+#### Unboxing
+
+-   É o processo de conversão de um objeto tipo referência para um
+    objeto tipo valor compatível
