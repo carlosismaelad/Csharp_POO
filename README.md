@@ -193,3 +193,16 @@
 
 • Tamanho fixo
 • Dificuldade para se realizar inserções e deleções
+
+## Modificador de parâmetros: ref e out
+
+### Considerações sobre ref e out
+
+#### Diferença:
+
+-   A variável passada como parâmetro ref DEVE ter sido iniciada
+-   A variável passada como parâmetro out não precisa ter sido iniciada
+-   Conclusão: ambos são muito similares, mas ref é uma forma de fazer
+    o compilador obrigar o usuário a iniciar a variável.
+-   Nota: ambos são considerados "code smells" (design ruim) e devem
+    ser evitados.
