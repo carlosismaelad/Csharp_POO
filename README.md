@@ -218,3 +218,12 @@
 
 -   É o processo de conversão de um objeto tipo referência para um
     objeto tipo valor compatível
+
+## Sintaxe opcional: laço foreach
+
+-   Usado em muitos casos, talvez até mais que o for simples que vimos anteriormente;
+
+#### O que é o laço foreach?
+
+-   Uma sintaxe opcional e simplificada para percorrer coleções.
+-   Quando falamos em coleções estamos nos referindo, de forma geral, a vetores, listas e outros tipos de estruturas de dados;
