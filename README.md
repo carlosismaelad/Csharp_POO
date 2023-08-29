@@ -227,3 +227,29 @@
 
 -   Uma sintaxe opcional e simplificada para percorrer coleções.
 -   Quando falamos em coleções estamos nos referindo, de forma geral, a vetores, listas e outros tipos de estruturas de dados;
+
+## Listas
+
+-   A lista é a coleção mais comum e mais utilizada no mercado;
+
+#### Lista é uma estrutura de dados:
+
+Homogênea (dados do mesmo tipo)
+Ordenada (elementos acessados por meio de posições)
+Inicia vazia, e seus elementos são alocados sob demanda
+Cada elemento ocupa um "nó" (ou nodo) da lista
+
+#### Classe: List
+
+#### Namespace:
+
+-   System.Collections.Generic
+
+#### Vantagens:
+
+• Tamanho variável
+• Facilidade para se realizar inserções e deleções
+
+#### Desvantagens:
+
+• Acesso sequencial aos elementos
