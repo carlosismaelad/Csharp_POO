@@ -249,8 +249,8 @@
 
 #### Vantagens:
 
-• Tamanho variável
-• Facilidade para se realizar inserções e deleções
+-   Tamanho variável
+-   Facilidade para se realizar inserções e deleções
 
 #### Desvantagens:
 
