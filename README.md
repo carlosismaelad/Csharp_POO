@@ -234,12 +234,14 @@
 
 #### Lista é uma estrutura de dados:
 
-Homogênea (dados do mesmo tipo)
-Ordenada (elementos acessados por meio de posições)
-Inicia vazia, e seus elementos são alocados sob demanda
-Cada elemento ocupa um "nó" (ou nodo) da lista
+-   Homogênea (dados do mesmo tipo);
+-   Ordenada (elementos acessados por meio de posições);
+-   Inicia vazia, e seus elementos são alocados sob demanda;
+-   Cada elemento ocupa um "nó" (ou nodo) da lista;
 
-#### Classe: List
+#### Classe:
+
+-   List
 
 #### Namespace:
 
