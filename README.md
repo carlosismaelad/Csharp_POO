@@ -252,4 +252,7 @@ Cada elemento ocupa um "nó" (ou nodo) da lista
 
 #### Desvantagens:
 
-• Acesso sequencial aos elementos
+-   Acesso sequencial aos elementos
+-   OBS: apesar desta desvantagem as implementações de listas são otimizadas. Desenvolvedores conseguem implementar
+    uma lista de forma que o acesso aos elementos dela seja parecido com o acesso aos elementos de um vetor, assim,
+    é possível ter um acesso razoavelmente rápido e manter as vantagens de se trabalhar com listas.
