@@ -258,3 +258,32 @@
 -   OBS: apesar desta desvantagem as implementações de listas são otimizadas. Desenvolvedores conseguem implementar
     uma lista de forma que o acesso aos elementos dela seja parecido com o acesso aos elementos de um vetor, assim,
     é possível ter um acesso razoavelmente rápido e manter as vantagens de se trabalhar com listas.
+
+## Matrizes
+
+### Checklist
+
+-   Revisão do conceito de matriz
+-   Declaração e instanciação
+-   Acesso aos elementos / como percorrer uma matriz
+-   Propriedade Length, Rank e GetLength
+-   Referência: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays
+
+### Definição
+
+-   Em programação, "matriz" é o nome dado a arranjos bidimensionais
+
+#### Arranjo é uma estrutura de dados:
+
+-   Homogênea (dados do mesmo tipo)
+-   Ordenada (elementos acessados por meio de posições)
+-   Alocada de uma vez só, em um bloco contíguo de memória
+
+#### Vantagens:
+
+-   Acesso imediato aos elementos pela sua posição
+
+#### Desvantagens:
+
+-   Tamanho fixo
+-   Dificuldade para se realizar inserções e deleções
